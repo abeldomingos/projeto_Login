@@ -84,9 +84,48 @@ body{
 }
 
 .container .login .input-box i{
-    
+    position: absolute;
+    color: var(--default-color);
+    font-size: 17px;
+}
+
+.container .login .esqueceu a{
+    color: var(--default-color);
+    text-decoration: none;
+}
+
+.container .login .dividir{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.container .login .redes-sociais{
+    text-align: center;
+}
+
+.container .login .redes-sociais i{
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container .login .redes-sociais i:hover{
+    color: var(--default-color);
+}
+
+.container .login .texto-sair a{
+    color: var(--default-color);
+    text-decoration: none;
+}
+
+.container .login-img img{
+    width: 80%;
 
 }
+
+
+
 
 
 
