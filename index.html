@@ -7,20 +7,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
      <!-- FONTE AWESOME CDN LINK -->
       <link rel="stylesheet" href="style.css">
-    <title>Documento</title>
+    <title>Page Login</title>
 </head>
 <body>
 
     <div class="container">
+        <!--Form Login -->
+
         <div class="login">
+
             <div class="title">Login</div>
+
             <form action="#">
                 <div class="input-box">
                     <i class="fa fa-envelope"></i>
-                    <input type="text" placeholder="Digite o seu email">
+                    <input type="text" placeholder="Digite o seu email" required>
 
                 </div>
+
+                <div class="input-box">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Digite a sua senha" required>
+
+                </div>
+
+                <div class="esqueceu"> <a href="#">Esqueceu a senha?</a></div>
+
+                <div class="iput-box">
+                    <input type="submit" value="Entrar">
+                </div>
+
+                <div class="dividir"> ou </div>
+
+                <div class="redes-sociais">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-github"></i>
+                </div>
+
+                <div class="texto-sair">
+                    Não tem uma conta? <a href="#"> Criar uma agora</a>
+                </div>
+
             </form>
+        </div>
+        <!-- Fim Form Login-->
+
+        <!--Imagem do Login-->
+        <div class="login-img">
+            <img src="imagem/dev.png" alt="developer">
         </div>
 
     </div>
