@@ -2,93 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+:root{
+    --default-color: #48409E;
+}
+
+::selection{
+    background-color: var(--default-color);
 }
 
 body{
-    background-image: linear-gradient(26deg, rgb(24,54,226),34%,rgb(255,0,238));
     min-height: 100vh;
-    padding: 40px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--default-color);
 }
 
 .container{
-    background-color: #fff;
-    max-width: 1100px;
-    height: 500px;
+    max-width: 850px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgb(0,0,0.2);
     display: flex;
-    margin: 60px auto 0 auto ;
-    padding: 20px;
     align-items: center;
-    border-radius: 10px;
-    box-shadow: rgb(0,0,0,0.26);
+    justify-content: space-around;
+    padding: 40px 30px;
 }
 
-.container .img{
-    text-align: center;
-    width: 50%;
-}
 
-.container .img img{
-    width: 60%;
-    margin-left: 30%; 
-}
 
-.container .form{
-    padding: 20px;
-    text-align: center;
-    width: 50%;
-}
 
-.form h1{
-    font-size: 2.6em;
-    margin-top: 20px 0;
-}
 
-.container .form form input{
-    display: block;
-    margin: 15px 0;
-    justify-items: center;
-    border: none;
-    border-radius: 50px;
-    width: 100%;
-    padding: 15px 25px 15px 25px;
-    border: 2px solid rgb(170, 170, 170);
-}
 
-.container .form form input[type="submit"]{
-    background-color: green;
-    color: #fff;
-    font-size: 19px;
-    transition: .3s;
-    cursor: pointer;
-}
-
-.container .form form input[type="submit"]:hover{
-    background-color: rgb(0, 54, 0);
-    color: #fafafa;
-    font-size: 19px;
-}
-
-.container .form form p a{
-   color: rgb(100, 100, 100);
-   text-decoration: none;
-}
-
-.container .form form p a:hover{
-    text-decoration: underline;
- }
-
- @media(max-width:800px){
-
-     .container .img img{
-        display: none;
-     }
-     
-     .container .form{
-        width: 100px;
-
-     }
-    
- }
 
