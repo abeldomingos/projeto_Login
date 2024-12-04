@@ -70,9 +70,26 @@ body{
 
 }
 
-.container .login .input-box input:focus{
+.container .login .input-box input:focus,
+.container .login .input-box input:valid{
+    border-color: var(--default-color);
+}
+
+.container .login .input-box input[type="submit"]{
+    background-color: var(--default-color);
+    border: 0;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .login .input-box i{
+    
 
 }
+
+
+
 
 
 
